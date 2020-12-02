@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import Button from 'react-bootstrap/Button';
 
 const Footer = () => {
 	return (
@@ -9,10 +10,12 @@ const Footer = () => {
 					<h4 className="footer-title">Y tú, ¿qué puedes hacer?</h4>
 				</div>
 				<div>
-					<button type="button" className="px-5 btn btn-outline-light btn-lg descubre">DESCUBRE EL TALLER</button>
+					<Button variant="primary">DESCUBRE EL TALLER</Button>
+					{/*<button type="button" className="px-5 btn btn-outline-light btn-lg descubre">DESCUBRE EL TALLER</button>*/}
 				</div>
 				<div>
-					<button type="button" className="px-5 btn btn-outline-light btn-lg compartir">COMPARTIR Y VISIBILIZAR</button>
+					<Button variant="primary" className="compartir">COMPARTIR Y VISIBILIZAR</Button>
+					{/*<button type="button" className="px-5 btn btn-outline-light btn-lg compartir">COMPARTIR Y VISIBILIZAR</button>*/}
 				</div>
 			</div>
 			<hr className="hrz-line"/>
