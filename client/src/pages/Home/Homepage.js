@@ -1,12 +1,13 @@
 import React from 'react';
-import Blocks from './img/block-1-juntos.svg';
+import Blocks from '../../img/block-1-juntos.svg';
 import './Homepage.css';
 import Button from 'react-bootstrap/Button';
-import Venimos from './img/block-2-venimos.png';
-import Vamos from './img/block-2-vamos.png';
-import Llevados from './img/text-block-3-llevado.svg';
-import Garrido from './img/ezequiel-garrido.png';
-import Subtract from './img/Subtract.png';
+import Venimos from '../../img/block-2-venimos.png';
+import Vamos from '../../img/block-2-vamos.png';
+import Llevados from '../../img/text-block-3-llevado.svg';
+import Section5 from './Section5';
+import Section6 from './Section6';
+
 
 const Homepage = () => {
 	return(
@@ -60,45 +61,19 @@ const Homepage = () => {
 				</div>
 			</section>
 			
-			<section className="section5">
-				<h3>¿Qué proponemos?</h3>
-				<div className="section5-container">
-					<div className="section5-grid-item1">
-						<img src={Garrido} alt="ezequiel-garrido" className="img-ezequiel"></img>
-					</div>
-					<div className="section5-grid-item2">
-						<p>El taller Upcycling Lab es un espacio de colaboración en el que personas sin y con hogar pueden trabajar juntos para dar una nueva vida a objetos desechados.</p>
-					</div>
-					<div className="section5-grid-item3">
-						<img src={Subtract} alt="subtract"></img>
-					</div>
-					<div className="section5-grid-item4">
-						<Button variant="dark" className="section5-btn">DESCUBRE EL TALLER</Button>
-					</div>
-				</div>
-			</section>
-
-			<section className="section6">
-				<h4>
-					El taller Upcycling Lab es un espacio de colaboración en el 
-					que personas sin y con hogar pueden trabajar juntos para dar 
-					una nueva vida a objetos desechados. 
-				</h4>
-			</section>
+			<Section5 className="section5" />
+											
+			<Section6 />
+				
+		
 			
 			<section className="section7">
-				<h4>
-					Nuestra finalidad no es lucrativa
-				</h4>
-			</section>
-			
-			<section className="section8">
 				<h4>
 					¿Quiénes estamos detrás?
 				</h4>
 			</section>
 
-			<section className="section9">
+			<section className="section8">
 				<h4>
 					Nuestro manifiesto
 				</h4>
