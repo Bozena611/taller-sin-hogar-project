@@ -1,6 +1,7 @@
 .Homepage{
-    background-color: #94C6D0;
-    padding-left: 16.5rem;
+    margin-left: 5rem;
+    /*padding-left: 16.5rem;*/
+    margin-right:0;
 }
 
 .b-line{
@@ -8,6 +9,11 @@
 	justify-content: center;
 }
 
+/*
+.som {
+	width: 56.375rem;
+	height: 19.313rem;
+}*/
 .somos {
 	/*width: 902px;
 	height: 309px;*/
@@ -18,47 +24,92 @@
 
 .descubre-btn {
 	/*margin-top: 30px;*/
+	font-style: normal;
+	font-size: 2.5rem;
+	font-weight: 300;
+	letter-spacing: -0.02rem;
+	color: #1D1D1D;
 }
 
 section {
-	padding-top: 10vh;
-	padding-bottom: 10vh;
+	padding-top: 8.5rem;
+	padding-bottom: 8vh;
 }
+
+/*===== SECTION 2 ====*/
 
 .section2-container {
 	position: relative;
 	text-align: center;
+	width: 56.75rem;
+	height: 31.8rem;
 }
-/* **GIVING ERROR UNKNOWN WORD***
+
 .image-text {
- 	position: absolute;
-  top: 50%;
-  margin-left: 50%;
+	position: absolute;
+	width: 47.25rem;
+	height: 9.5rem;
+	top:40%;
+	left: 50%;
 	transform: translate(-50%, -50%);
-} 
-*/
+}
+
+.image-text h2 {
+	font-style: medium;
+	line-height: 4.25rem;
+	letter-spacing: -0.02em;
+	vertical-align: top;
+	text-align: left;
+	margin-left: 1.3em;
+}
+
+.section2-h1 {
+	font-style: bold;
+	font-size: 3.125rem;
+	line-height: 4.68rem;
+}
+
 .blocks{
 	height: 542px;
 	width: 823px;
 }
 
+/*===== SECTION 3 =======*/
+
 .section3-container{
 	display: flex;
-	justify-content: space-around;
+	margin-top: 7vh;
 }
 
 .section3 h2 {
 	font-size: 40px;
 }
 
-.section3-btn {
-	width: 437px;
-}
-.section4-container {
-	width:999px;
-	height:748px;
+.section3-div1 {
+	margin-right: 5em;
 }
 
+.section3 img {
+	margin-bottom: 7vh;
+}
+
+.section3 p {
+	font-weight: 400;
+	margin-top: 3vh;
+	margin-bottom: 4vh;
+}
+
+.section3 span {
+	font-weight: 700;
+}
+
+.section3-btn {
+	width: 27.3rem;
+	height: 2.875rem;
+	border-radius: 4px;
+	background-color: #1D1D1D;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
 .section3-div1 {
 	width: 396px;
 }
@@ -67,41 +118,30 @@ section {
 	width: 437px;
 }
 
+
+/*=====SECTION 4=====*/
+
+.section4-container {
+	width:62.438rem;
+	height:748px;
+}
+
+.section4 h2 {
+	font-size: 2.5rem;
+	letter-spacing: -2%;
+	margin-bottom: 6vh;
+}
+
 .section4-btn {
 	float: right;
 	height: 46px;
 	width: 287.84px;
-	margin-top: 5vh;
+	margin-top: 6vh;
 	margin-right: 5.7em;
+	border-radius: 4px;
+	background-color: #1D1D1D;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
-.section5-container {
-	display: grid;
-  position: relative;     
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto ;
-  grid-gap: 0.625em;
-}
+/*===== SECTION 5 ====*/
 
-.section5-grid-item1 {
-	grid-column: 2;
-  grid-row: 1;
-}
-
-.section5-container p {
-	width: 28.43rem;
-}
-
-.section5-grid-item3 {
-	width: 11.37rem;
-	height: 7.56rem;
-}
-
-.img-ezequiel {
-	width: 77%;
-}
-
-.section5-btn {
-	width: 24.68rem;
-	margin-top: 5vh;
-}
