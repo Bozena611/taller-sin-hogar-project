@@ -7,8 +7,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Homepage/>
+	    <div className='menu-flex'>
+	      <Header/>
+	      <Homepage/>
+	    </div>
       <Footer className="footer-main"/>
     </div>
   );
