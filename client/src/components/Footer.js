@@ -1,24 +1,35 @@
 import React from 'react';
 import './Footer.css';
 import Button from 'react-bootstrap/Button';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 const Footer = () => {
 	return (
 		<div className="footer-main">
 			<div className="footer-buttons">
-				<div>
-					<h4 className="footer-title">Y tú, ¿qué puedes hacer?</h4>
-				</div>
-				<div>
-					<Button variant="primary">DESCUBRE EL TALLER</Button>
-					{/*<button type="button" className="px-5 btn btn-outline-light btn-lg descubre">DESCUBRE EL TALLER</button>*/}
-				</div>
-				<div>
-					<Button variant="primary" className="compartir">COMPARTIR Y VISIBILIZAR</Button>
-					{/*<button type="button" className="px-5 btn btn-outline-light btn-lg compartir">COMPARTIR Y VISIBILIZAR</button>*/}
-				</div>
+
+				<Row>
+					<Col md={{ span: 3 }} className="py-3 ml-2">
+						<h4 className="footer-title">Y tú, ¿qué puedes hacer?</h4>
+					</Col>
+					<Col md={{ span: 8}} className="py-5">
+						<Button className="btn px-5 ml-5 btn btn-outline-light btn-lg descubre">COLABORA EN EL TALLER</Button>
+						<Button className="btn px-5 ml-2 btn-outline-light btn-lg compartir">COMPARTIR Y VISIBILIZAR</Button>
+					</Col>
+				</Row>
+
 			</div>
-			<hr className="hrz-line"/>
+
+			<Row>
+				<Col md={{ span: 3 }} className="ml-2">
+					<hr className="hrz-line"/>
+				</Col>
+				<Col md={{ span: 8}} >
+					<hr className="hrz-line1"/>
+				</Col>
+			</Row>
+
 			<div className="footer-flex1">
 				<div>
 					<p>Home</p>
