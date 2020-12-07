@@ -3,6 +3,7 @@ import './Footer.css';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Logo from '../img/horizontal-logo.svg';
 
 const Footer = () => {
 	return (
@@ -32,7 +33,9 @@ const Footer = () => {
 
 			<Row>
 				<Col md={{ span: 3 }} className="ml-2">
-					<h4 className="transforma">TRANSFORMARTE</h4>
+					<h4 className="transforma">
+						<img src={Logo} alt="blocks" className=" mb-3"></img>
+					</h4>
 					<p className="copyright">Copyright © 2020. LogoIpsum. All rights reserved.</p>
 				</Col>
 				<Col md={{ span: 8}} className="footer-flex1">
