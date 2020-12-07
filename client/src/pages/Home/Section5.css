@@ -1,0 +1,57 @@
+.section5-container {
+	display: grid;
+  position: relative;     
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto ;
+  grid-gap: 0.625em;
+}
+
+.section5 h2 {
+	font-size: 40px;
+	letter-spacing: -2%;
+	margin-bottom: 7vh;
+}
+
+.section5-grid-item1 {
+	grid-column: 2;
+  grid-row: 1;
+}
+
+.section5-grid-item2 {
+	width: 28.43rem;
+	height: 121px;
+}
+
+
+.section5-container p {
+	width: 28.43rem;
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 1.688rem;
+}
+
+.section5 span {
+	font-weight: 700;
+}
+
+.section5-grid-item3 {
+	width: 27.75rem;
+	height: 11.375rem;
+}
+
+.img-ezequiel {
+	width: 24.688rem;
+	height: 18.25rem;
+}
+
+.section5-btn {
+	width: 24.68rem;
+	height: 2.875rem;
+	border-radius: 4px;
+	background-color: #1D1D1D;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+	margin-top: 6vh;
+}
+
+
+	

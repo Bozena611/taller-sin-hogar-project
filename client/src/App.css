@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
+  background-image: url('./Background.png'); /*NOT WORKING*/
+  /*mix-blend-mode: soft-light;*/
+}
+
+.menu-flex {
+	display: flex;
+	background-color: #94C6D0;
 }
 
 .footer-main {
