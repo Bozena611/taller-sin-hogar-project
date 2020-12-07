@@ -63,6 +63,12 @@
 	margin-right: 1.5em;
 }
 
+.minifoot{
+	line-height: 30px;
+	weight: 300;
+	font.size: 12px;
+}
+
 .footer-flex2 p {
 	margin-right: 0.5em;
 }
@@ -75,4 +81,7 @@
 .copyright {
 	padding-bottom: 4vh;
 	text-align: left;
+
+	font-size: 14px;
+	weight: 300;
 }

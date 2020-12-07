@@ -30,33 +30,47 @@ const Footer = () => {
 				</Col>
 			</Row>
 
-			<div className="footer-flex1">
-				<div>
-					<p>Home</p>
-					<p>El equipo</p>
-					<p>Los valores</p>
-					<p>Transparencia</p>
-				</div>	
-				<div className="footer-upcycling">
-					<p>Upcycling Lab</p>
-					<p>Desarrollo</p>
-					<p>Precio</p>
-					<p>Testimonios</p>
-					<p>Vínculos</p>
-				</div>
-			</div>
-			<div>
-				<p className="footer-siguenos">Síguenos</p>
-				<div className="footer-flex2">
-					<p>icon1</p>
-					<p>icon2</p>
-					<p>icon3</p>
-				</div>
-			</div>	
-			<div>
-				<h5 className="transforma">TRANSFORMARTE</h5>
-			</div>
-			<p className="copyright">Copyright © 2020. LogoIpsum. All rights reserved.</p>
+			<Row>
+				<Col md={{ span: 3 }} className="ml-2">
+					<h4 className="transforma">TRANSFORMARTE</h4>
+					<p className="copyright">Copyright © 2020. LogoIpsum. All rights reserved.</p>
+				</Col>
+				<Col md={{ span: 8}} className="footer-flex1">
+
+					<div className="footer-upcycling">
+						<p>Home</p>
+						<h6 className="minifoot"> El equipo</h6>
+						<h6 className="minifoot"> Los valores </h6>
+						<h6 className="minifoot"> Transparencia </h6>
+					</div>
+
+					<div className="footer-upcycling">
+						<p> Upcycling Lab </p>
+						<h6 className="minifoot"> Desarollo </h6>
+						<h6 className="minifoot"> Precio </h6>
+						<h6 className="minifoot"> Testimonios </h6>
+						<h6 className="minifoot"> Vinculos </h6>
+					</div>
+
+					<div className="footer-upcycling">
+						<p> Compra </p>
+						<h6 className="minifoot"> Datos personales </h6>
+						<h6 className="minifoot"> Pagos </h6>
+						<h6 className="minifoot"> Info adicional </h6>
+					</div>
+
+					<div>
+						<p className="footer-siguenos">Síguenos</p>
+						<div className="footer-flex2">
+							<p>icon1</p>
+							<p>icon2</p>
+							<p>icon3</p>
+						</div>
+					</div>
+
+				</Col>
+			</Row>
+
 		</div>
 	);
 }
