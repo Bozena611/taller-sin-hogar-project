@@ -8,7 +8,7 @@ import Transparentessvg from '../../img/transparentes.svg';
 const Section6 = () => {
 	return(
 		<div className="section6">
-			<h4>Nuestra finalidad no es lucrativa</h4>
+			<h2>Nuestra finalidad no es lucrativa</h2>
 			<div className="somos-transparentes">
 			  <img src={Transparentes} alt="transparentes"></img>
 			  <div className="centered">
