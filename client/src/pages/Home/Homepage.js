@@ -8,6 +8,8 @@ import Vamos from '../../img/block-2-vamos.png';
 import Llevados from '../../img/text-block-3-llevado.svg';
 import Section5 from './Section5';
 import Section6 from './Section6';
+import Section7 from './Section7';
+import Section8 from './Section8';
 
 
 const Homepage = () => {
@@ -62,37 +64,14 @@ const Homepage = () => {
 				</div>
 			</section>
 			
-			<Section5 className="section5" />
+			<Section5 className="section" />
 											
-			<Section6 />
-				
-		
+			<Section6 className="section" />
+						
+			<Section7 className="section7" />
 			
-			<section className="section7">
-				<h4>
-					¿Quiénes estamos detrás?
-				</h4>
-			</section>
-
-			<section className="section8">
-				<h4>
-					Nuestro manifiesto
-				</h4>
-				<hr className="b-line"/>
-				<h4>
-					Sensibilizar
-				</h4>
-				<hr className="b-line"/>
-				<h4>
-					Transformar
-				</h4>
-				<hr className="b-line"/>
-				<h4>
-					Sostenibilidad, impacto social y economía creativa
-				</h4>
-				<hr className="b-line"/>
-			</section>
-			
+			<Section8 className="section8" />
+									
 		</div>
 	);
 }
