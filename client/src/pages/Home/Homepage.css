@@ -1,8 +1,7 @@
 .Homepage{
     margin-left: 5rem;
-    /*padding-left: 16.5rem;*/
+    /*padding-left: 16.5rem; it should be set with the react-boostrap*/
     margin-right:0;
-	background-color: #94C6D0;
 }
 
 .b-line{
@@ -15,13 +14,14 @@
 	width: 56.375rem;
 	height: 19.313rem;
 }*/
+/*
 .somos {
-	/*width: 902px;
-	height: 309px;*/
-	/*padding-top: 201px;
+	width: 902px;
+	height: 309px;
+	padding-top: 201px;
 	padding-left: 265px;
-	margin-bottom: 10vh;*/
-}
+	margin-bottom: 10vh;
+}*/
 
 .descubre-btn {
 	/*margin-top: 30px;*/
@@ -32,7 +32,7 @@
 	color: #1D1D1D;
 }
 
-section {
+.section {
 	padding-top: 8.5vh;
 	padding-bottom: 4vh;
 }
@@ -50,8 +50,8 @@ section {
 	position: absolute;
 	width: 47.25rem;
 	height: 9.5rem;
-	top:40%;
-	left: 50%;
+	top: 30%;
+	left: 45%;
 	transform: translate(-50%, -50%);
 }
 
@@ -72,7 +72,7 @@ section {
 
 .blocks{
 	height: 542px;
-	width: 823px;
+	max-width: 750px;
 }
 
 /*===== SECTION 3 =======*/
@@ -145,5 +145,3 @@ section {
 }
 
 /*===== SECTION 5 ====*/
-
-

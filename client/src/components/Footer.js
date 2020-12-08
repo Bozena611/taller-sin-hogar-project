@@ -10,7 +10,7 @@ const Footer = () => {
 		<div className="footer-main">
 			<div className="footer-buttons">
 
-				<Row>
+				<Row className="blacko">
 					<Col md={{ span: 3 }} className="py-3 ml-2">
 						<h4 className="footer-title">Y tú, ¿qué puedes hacer?</h4>
 					</Col>
@@ -22,7 +22,7 @@ const Footer = () => {
 
 			</div>
 
-			<Row>
+			<Row className="blacko">
 				<Col md={{ span: 3 }} className="ml-2">
 					<hr className="hrz-line"/>
 				</Col>
@@ -31,7 +31,7 @@ const Footer = () => {
 				</Col>
 			</Row>
 
-			<Row>
+			<Row className="blacko">
 				<Col md={{ span: 3 }} className="ml-2">
 					<h4 className="transforma">
 						<img src={Logo} alt="blocks" className=" mb-3"></img>
