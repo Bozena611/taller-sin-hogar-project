@@ -77,18 +77,18 @@
 
 /*===== SECTION 3 =======*/
 
-.section3-container{
+/*.section3-container{
 	display: flex;
 	margin-top: 7vh;
-}
+}*/
 
 .section3 h2 {
 	font-size: 40px;
 }
 
-.section3-div1 {
+/*.section3-div1 {
 	margin-right: 5em;
-}
+}*/
 
 .section3 img {
 	margin-bottom: 7vh;
@@ -110,13 +110,14 @@
 	background-color: #1D1D1D;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
+/*
 .section3-div1 {
 	width: 396px;
 }
 
 .section3-div2 p {
 	width: 437px;
-}
+}*/
 
 
 /*=====SECTION 4=====*/
@@ -144,3 +145,119 @@
 }
 
 /*===== SECTION 5 ====*/
+
+/*.section5 {
+	margin-bottom: 10rem;
+}*/
+
+.section5 h2 {
+	font-size: 40px;
+	letter-spacing: -2%;
+	margin-top: 10rem;
+	margin-bottom: 7vh;
+}
+
+.section5 p {
+	width: 28.43rem;
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 1.688rem;
+}
+
+.section5 span {
+	font-weight: 700;
+}
+
+.podcast-green {
+	margin-top: 2rem;
+}
+
+.img-ezequiel {
+	width: 24.688rem;
+	height: 18.25rem;
+}
+
+.section5-btn {
+	width: 24.68rem;
+	height: 2.875rem;
+	/*width: 100%;*/
+	border-radius: 4px;
+	background-color: #1D1D1D;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+	margin-top: 6vh;
+}
+
+
+
+/*===== SECTION 6 ====*/
+
+.section6 {
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+.section6 h2 {
+	font-size: 2.5rem;
+	margin-bottom: 3rem;
+}
+
+.somos-mobile {
+	display: none;
+}
+
+.somos-transparentes {
+	position: relative;
+	text-align: center;
+	width: 56.75rem;
+	height: 31.8rem;
+}
+
+.centered {
+	position: absolute;
+	top:55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.centered p {
+	margin-top: 9vh;
+	width: 39.7rem;
+	margin-left: 5em;
+}
+
+.section6-button {
+	padding-top: 4vh;
+}
+
+.s6-btn {
+	width: 19.8rem;
+	height: 2.875rem;
+	background-color: #1D1D1D;
+}
+
+
+/*==== MOBILE VERSION ==== */
+
+@media screen and (max-width: 768px){
+
+  .section5-btn, .section6-image, .section6-somos-svg {
+    display: none;
+  } 
+
+  .section6 {
+  	text-align: left;
+  }
+
+  .somos-mobile { /*=== NOT WORKING ===*/
+  	font-weight: 900;
+  	font-size: 35px;
+  	line-height: 110%;
+  	letter-spacing: 0.04em;
+  	text-transform: uppercase;
+  	border: 1px dashed #1D1D1D;
+  }
+  .centered {
+  	left: 30%;
+  	text-align: left;
+  }
+}
