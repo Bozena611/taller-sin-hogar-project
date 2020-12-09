@@ -1,13 +1,31 @@
 .Homepage{
-    margin-left: 5rem;
+    /* margin-left: 5vh; */
     /*padding-left: 16.5rem; it should be set with the react-boostrap*/
-    margin-right:0;
 }
 
 .b-line{
 	border: 1px solid rgba(0, 0, 0, 0.8);
 	justify-content: center;
 }
+
+
+.bordi{
+    margin-top: 4vh;
+    margin-left: 3vh;
+}
+
+.trans{
+    width: 150px;
+}
+
+.header-box{
+    border: 1.2px solid #1D1D1D;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+
 
 /*
 .som {
@@ -33,7 +51,8 @@
 }
 
 .section {
-	padding-top: 8.5vh;
+	padding-top: 5.5vh;
+	margin-left: 4vh;	
 	padding-bottom: 4vh;
 }
 
@@ -134,7 +153,7 @@
 }
 
 .section4-btn {
-	float: right;
+	/* float: right; */
 	height: 46px;
 	width: 287.84px;
 	margin-top: 6vh;
@@ -146,9 +165,10 @@
 
 /*===== SECTION 5 ====*/
 
-/*.section5 {
+.section5 {
+	max-width: 80%;
 	margin-bottom: 10rem;
-}*/
+}
 
 .section5 h2 {
 	font-size: 40px;
@@ -158,7 +178,6 @@
 }
 
 .section5 p {
-	width: 28.43rem;
 	font-size: 1.125rem;
 	font-weight: 400;
 	line-height: 1.688rem;
@@ -173,8 +192,7 @@
 }
 
 .img-ezequiel {
-	width: 24.688rem;
-	height: 18.25rem;
+
 }
 
 .section5-btn {
@@ -187,7 +205,11 @@
 	margin-top: 6vh;
 }
 
+/*======= trying to minimiza the p overscreen ==== */
 
+.p-container{
+	max-width: 80%;
+}
 
 /*===== SECTION 6 ====*/
 
@@ -235,6 +257,9 @@
 	background-color: #1D1D1D;
 }
 
+.section8{
+	margin-left: 2vh;
+}
 
 /*==== MOBILE VERSION ==== */
 
