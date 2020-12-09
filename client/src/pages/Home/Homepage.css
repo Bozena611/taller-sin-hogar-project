@@ -212,6 +212,14 @@
 	height: 31.8rem; */
 }
 
+.manif-unite{
+	display: inline;
+}
+
+.manifesto{
+	font-weight: 700;
+}
+
 .centered {
 	/*position: absolute;
 	top:55%;
@@ -245,7 +253,8 @@
   } 
 
   .section6 {
-  	text-align: left;
+	  text-align: left;
+	  margin-top: -30%;
   }
 
   .somos-mobile { /*=== NOT WORKING ===*/
@@ -254,7 +263,7 @@
   	line-height: 110%;
   	letter-spacing: 0.04em;
   	text-transform: uppercase;
-  	border: 1px dashed #1D1D1D;
+  	border: 1px dashed #1b1a1a;
   }
   .centered {
   	left: 30%;

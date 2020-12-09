@@ -25,7 +25,9 @@ import Mask4 from '../../img/mask-group4.png';
 import Nosotros from '../../img/quienes-somos.png';
 import Fundacion from '../../img/fundacion.svg';
 
-import Yellow1 from '../../img/rectangle187.png';
+import Yellow1 from '../../img/mission.png';
+import Yellow2 from '../../img/vision.png';
+import Yellow3 from '../../img/values.png';
 
 const Homepage = () => {
 	return(
@@ -79,7 +81,7 @@ const Homepage = () => {
 							<Row className="mb-5">
 								<Col md={{ span: 6}} >
 									<p><span>El taller Upcycling Lab</span> es un espacio de colaboración en el que personas sin y con hogar pueden trabajar juntos para dar una nueva vida a objetos desechados.</p>
-									<Image src={Podcast} alt="subtract" className="podcast-green" />
+									<Image src={Podcast} alt="subtract" className="podcast-green mb-3" />
 								</Col>
 								<Col md={{ span: 6}} >
 								
@@ -90,6 +92,7 @@ const Homepage = () => {
 								</Col>
 							</Row>
 						</section>
+
 						<section className="section6">
 							<h2>Nuestra finalidad no es lucrativa</h2>
 							<div className="somos-transparentes">
@@ -108,48 +111,57 @@ const Homepage = () => {
 						<section className="section7">								
 							<h2>¿Quiénes estamos detrás?</h2>
 							
-
-
 							<div>
-								<Image src={Nosotros} alt="transparentes" fluid />
-								<Image src={Fundacion} alt="transparentes" className="fundacion" fluid/>
+								<Image src={Nosotros} className="mb-2" alt="transparentes" fluid />
+								<Image src={Fundacion} alt="transparentes" className="fundacion mb-3" fluid/>
 							</div>
 						</section>	
+
 						<section className="section8">
 							<h2>Nuestro manifiesto</h2>
 							<hr className="b-line"/>
 							<div className="manif-flex">
 								<div className="manif-unite">
-									<Image src={Yellow1} alt="mision" fluid/>
-									<div className="centrado">
-										<p>MISIÓN</p>
-									</div>
-								</div>
-								<div>
-									<h1>Sensibilizar</h1>
-								</div>
-							</div>
-							<hr className="b-line"/>
-							<div className="manif-flex">
-								<div className="manif-unite">
-									<Image src={Yellow1} alt="vision" fluid/>
-									<div className="centrado">
-										<p>VISIÓN</p>
-									</div>
-								</div>
-								<div>
-									<h1>Transformar</h1>
+
+								<Row>
+									<Col md={{ span: 2}} className="mt-3 mr-2">
+										<Image src={Yellow1} alt="mision"/>
+									</Col>
+									<Col>
+										<h1 className="manifesto">Sensibilizar</h1>
+									</Col>
+								</Row>
+
 								</div>
 							</div>
 							<hr className="b-line"/>
 							<div className="manif-flex">
 								<div className="manif-unite">
-									<Image src={Yellow1} alt="valores" className="valores" fluid/>
-									<div className="centrado">
-										<p>VALORES</p>
-									</div>
+									<Row>
+										<Col md={{ span: 2}} className="mt-3 mr-2">
+											<Image src={Yellow2} alt="mision"/>
+										</Col>
+										<Col>
+											<h1 className="manifesto">Transformar</h1>
+										</Col>
+									</Row>
 								</div>
-								<h1>Sostenibilidad, impacto social y economía creativa</h1>
+							</div>
+							<hr className="b-line"/>
+
+							<div className="manif-flex">
+								<div className="manif-unite">
+									<Row>
+										<Col md={{ span: 2}} className="mt-3 mr-2">
+											<Image src={Yellow3} alt="mision"/>
+										</Col>
+										<Col>
+											<h1 className="manifesto">
+												Sostenibilidad, impacto social y economía creativa</h1>
+										</Col>
+									</Row>
+
+								</div>
 							</div>
 							<hr className="b-line"/>
 						</section>
