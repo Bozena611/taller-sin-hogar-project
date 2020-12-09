@@ -10,8 +10,8 @@ const Footer = () => {
 		<div className="footer-main">
 			<div className="footer-buttons">
 
-				<Row className="blacko">
-					<Col md={{ span: 3 }} className="py-3 ml-2">
+				<Row className="blacko" >
+					<Col md={{ span: 3 }} xs={{ span: 12}} className="py-3 ml-2">
 						<h4 className="footer-title">Y tú, ¿qué puedes hacer?</h4>
 					</Col>
 					<Col md={{ span: 8}} className="py-5">
