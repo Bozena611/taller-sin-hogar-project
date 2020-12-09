@@ -5,6 +5,11 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Logo from '../img/horizontal-logo.svg';
 import Container from 'react-bootstrap/Container'
+import Image from 'react-bootstrap/Image';
+
+import icon from '../img/Path.png';
+import icon1 from '../img/Path1.png';
+import icon2 from '../img/Path3.png';
 
 const Footer = () => {
 	return (
@@ -63,13 +68,11 @@ const Footer = () => {
 						<h6 className="minifoot"> Info adicional </h6>
 					</div>
 
-					<div>
-						<p className="footer-siguenos">Síguenos</p>
-						<div className="footer-flex2">
-							<p>icon1</p>
-							<p>icon2</p>
-							<p>icon3</p>
-						</div>
+					<div className="footer-upcycling">
+						<p>Síguenos</p>
+							<Image src={icon} className="mr-2"/>
+							<Image src={icon1} className="mr-2" />
+							<Image src={icon2} className="mr-1" />
 					</div>
 
 				</Col>
