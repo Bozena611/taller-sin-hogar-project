@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 import Garrido from '../../img/ezequiel-garrido.png';
-import Podcast from '../../img/Subtract1.png';
+import Podcast from '../../img/Subtract2.png';
 
 import Transparentes from '../../img/somos-transparentes.svg';
 import Transparentessvg from '../../img/somos-transparentes3.png';
