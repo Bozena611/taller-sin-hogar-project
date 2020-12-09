@@ -208,15 +208,15 @@
 .somos-transparentes {
 	position: relative;
 	text-align: center;
-	width: 56.75rem;
-	height: 31.8rem;
+	/*width: 56.75rem;
+	height: 31.8rem; */
 }
 
 .centered {
-	position: absolute;
+	/*position: absolute;
 	top:55%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);*/
 }
 
 .centered p {

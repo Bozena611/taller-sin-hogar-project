@@ -12,14 +12,14 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 import Garrido from '../../img/ezequiel-garrido.png';
-import Podcast from '../../img/Subtract.png';
+import Podcast from '../../img/Subtract1.png';
 
 import Transparentes from '../../img/somos-transparentes.svg';
-import Transparentessvg from '../../img/transparentes.svg';
+import Transparentessvg from '../../img/somos-transparentes3.png';
 
 import Mask1 from '../../img/mask-group1.png';
-import Mask2 from '../../img/mask-group2.png';
-import Mask3 from '../../img/mask-group3.png';
+import Mask2 from '../../img/Mask-group2.png';
+import Mask3 from '../../img/Mask-group3.png';
 import Mask4 from '../../img/mask-group4.png';
 
 import Nosotros from '../../img/quienes-somos.png';
@@ -93,38 +93,22 @@ const Homepage = () => {
 						<section className="section6">
 							<h2>Nuestra finalidad no es lucrativa</h2>
 							<div className="somos-transparentes">
-							<Image src={Transparentes} className="section6-image" alt="transparentes" fluid/>
+
 								<div className="centered">
 								<Image src={Transparentessvg} className="section6-somos-svg" alt="logo" fluid/>
 									{/*==== HAS TO APPEAR ON MOBILE VERSION, NOT WORKING====*/}
-									<h2 className="somos-mobile">Somos Transparentes</h2>
-									<p>Cuentas claras e ingresos justificados. Compruéba que todas las cifras cuadran descargando el documento del balance anual.</p>
+
 									<div className="section6-button">
 										<Button variant="dark" className="s6-btn">¿DÓNDE VA TU DINERO?</Button>
 									</div>
 								</div>
 							</div>
 						</section>
+
 						<section className="section7">								
 							<h2>¿Quiénes estamos detrás?</h2>
 							
-							<Row className="mb-5">
-								<Col md={{ span: 6}} className="">
-									<Image src={Mask1} alt="mask1" fluid />
-								</Col>
-								<Col md={{ span: 6}} className="">
-									<Image src={Mask3} alt="mask3" fluid />
-								</Col>
-							</Row>
-							
-							<Row className="mb-5">
-								<Col md={{ span: 6}} className="">
-									<Image src={Mask4} alt="mask4" fluid />
-								</Col>
-								<Col md={{ span: 6}} className="">
-									<Image src={Mask2} alt="mask2" fluid />
-								</Col>
-						</Row>
+
 
 							<div>
 								<Image src={Nosotros} alt="transparentes" fluid />
