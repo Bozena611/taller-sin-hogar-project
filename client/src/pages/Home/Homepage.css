@@ -220,6 +220,18 @@
 	font-weight: 700;
 }
 
+.yellow-underline{
+	border-bottom: 2.7px solid #F8D65B;
+}
+
+.yellow-box{
+	border: 2.7px solid #F8D65B;
+}
+
+.flecha{
+	transform: rotate(-90deg);
+}
+
 .centered {
 	/*position: absolute;
 	top:55%;

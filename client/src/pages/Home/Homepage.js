@@ -36,13 +36,13 @@ const Homepage = () => {
 				<Row>
 					<Col md={{ span: 11}} className="">
 						<h1 className="section">
-							Somos personas unidas por un proyecto social que responde a la falta 
-							de vínculos entre personas con y sin hogar mediante  talleres 
-							colaborativos.
+							Somos <span className="yellow-underline">personas unidas</span> por un <span className="yellow-underline">proyecto social</span> que responde a la falta de vínculos entre personas con y sin hogar mediante 
+							<span className="yellow-box">talleres colaborativos.</span>
 						</h1>
 
 						<div>
-							<h2 className="descubre-btn mb-4">Descubre más</h2> 
+							<h2 className="descubre-btn mb-4">Descubre más  ⇣ </h2> 
+							
 						</div>
 
 						<div>
