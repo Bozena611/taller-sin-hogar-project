@@ -1,8 +1,6 @@
 .Homepage{
-    margin-left: 6rem;
+
     /*padding-left: 16.5rem; it should be set with the react-boostrap*/
-    margin-right: 0;
-    padding-right: 7rem;
 }
 
 .b-line{
@@ -135,15 +133,17 @@ section, .section {
 }
 
 .section4-btn {
-	float: right;
+	float: left;
 	height: 46px;
-	width: 287.84px;
+	/*width: 287.84px;*/
 	margin-top: 6vh;
-	margin-right: 5.7em;
+	/*margin-right: 5.7em; */
 	border-radius: 4px;
 	background-color: #1D1D1D;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
+
+
 
 /*===== SECTION 5 ====*/
 
@@ -159,7 +159,7 @@ section, .section {
 }
 
 .section5 p {
-	width: 28.43rem;
+
 	font-size: 1.125rem;
 	font-weight: 400;
 	line-height: 1.688rem;
@@ -174,8 +174,7 @@ section, .section {
 }
 
 .img-ezequiel {
-	width: 24.688rem;
-	height: 18.25rem;
+
 }
 
 .section5-btn {
@@ -381,17 +380,27 @@ section, .section {
 	transform: translate(-50%, -50%);
 }*/
 
-
-
-
-
+.mobile-logo{
+	display: none;
+}
 
 
 /*==== MOBILE VERSION ==== */
 
 @media screen and (max-device-width: 768px){
 
-	
+   .mobile-logo{
+	display: inline;
+   }
+
+   .yellow-underline{
+		background-color:  #F8D65B;
+   }
+
+   .yellow-box{
+	background-color:  #F8D65B;
+   }
+
   .descubre-btn, .section3 h2, .section5-btn, .section6-image, .section6-somos-svg {
     display: none;
   } 
@@ -405,6 +414,8 @@ section, .section {
 .section4-btn {
 	float: none;
 }
+	
+
 .section4-btn, .s6-btn {
 	width: 100%;
 	border-radius: 4px;
@@ -515,4 +526,26 @@ section, .section {
   .section8-img {
   	padding-top: 0;
   }
+
+  .podcast-green {
+	margin-top: 2rem;
+	width: 80%;
+}
+
+.Homepage{
+
+    /*padding-left: 16.5rem; it should be set with the react-boostrap*/
+
+	width: 90%;
+}
+
+
+}
+
+
+@media screen and (min-width: 768px){
+	.section4-btn {
+		float: right;
+		margin-right: 20%; 
+	}
 }
