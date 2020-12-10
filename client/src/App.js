@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Homepage from './pages/Home/Homepage';
-import Footer from './components/Footer';
+import Footer2 from './components/Footer2';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Header/>
 	      <Homepage/>
 	    </div>
-      <Footer className="footer-main"/>
+      <Footer2 className="footer-main"/>
     </div>
   );
 }
