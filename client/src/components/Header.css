@@ -1,5 +1,7 @@
 .header-main{
-
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
 .trans{
@@ -11,4 +13,11 @@
     box-sizing: border-box;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+
+@media screen and (max-width: 768px){
+	.header-main {
+		display: none;
+	}
+
 }
