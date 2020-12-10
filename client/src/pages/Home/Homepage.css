@@ -1,8 +1,6 @@
 .Homepage{
-    margin-left: 6rem;
+
     /*padding-left: 16.5rem; it should be set with the react-boostrap*/
-    margin-right: 0;
-    padding-right: 7rem;
 }
 
 .b-line{
@@ -137,9 +135,9 @@ section, .section {
 .section4-btn {
 	float: right;
 	height: 46px;
-	width: 287.84px;
+	/*width: 287.84px; */
 	margin-top: 6vh;
-	margin-right: 5.7em;
+	/*margin-right: 5.7em; */
 	border-radius: 4px;
 	background-color: #1D1D1D;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
@@ -159,7 +157,7 @@ section, .section {
 }
 
 .section5 p {
-	width: 28.43rem;
+
 	font-size: 1.125rem;
 	font-weight: 400;
 	line-height: 1.688rem;
@@ -174,8 +172,7 @@ section, .section {
 }
 
 .img-ezequiel {
-	width: 24.688rem;
-	height: 18.25rem;
+
 }
 
 .section5-btn {
@@ -525,4 +522,18 @@ section, .section {
   .section8-img {
   	padding-top: 0;
   }
+
+  .podcast-green {
+	margin-top: 2rem;
+	width: 80%;
+}
+
+.Homepage{
+
+    /*padding-left: 16.5rem; it should be set with the react-boostrap*/
+
+	width: 90%;
+}
+
+
 }

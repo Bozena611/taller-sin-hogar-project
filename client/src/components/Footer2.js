@@ -7,6 +7,7 @@ import Logo from '../img/horizontal-logo.svg';
 const Footer2 = () => {
 	return (
 		<div className="footer-main">
+
 			<div className="footer-buttons">
 				<div>
 					<div>
@@ -18,11 +19,11 @@ const Footer2 = () => {
 				<div className="footer-buttons2">
 					<div>
 						<Button variant="primary">DESCUBRE EL TALLER</Button>
-						{/*<button type="button" className="px-5 btn btn-outline-light btn-lg descubre">DESCUBRE EL TALLER</button>*/}
+						{/*<button type="button" className="px-5 btn btn-outline-light btn-lg descubre">DESCUBRE EL TALLER</button> */}
 					</div>
 					<div>
 						<Button variant="primary" className="compartir">COMPARTIR Y VISIBILIZAR</Button>
-						{/*<button type="button" className="px-5 btn btn-outline-light btn-lg compartir">COMPARTIR Y VISIBILIZAR</button>*/}
+						{/*<button type="button" className="px-5 btn btn-outline-light btn-lg compartir">COMPARTIR Y VISIBILIZAR</button>  */}
 					</div>
 					<hr className="hrz-line"/>
 				</div>
@@ -61,6 +62,8 @@ const Footer2 = () => {
 			<div className="transforma">
 				<Image src={Logo} alt="blocks" className=" mb-3" />
 			</div>
+			
+
 			<p className="copyright">Copyright © 2020. LogoIpsum. All rights reserved.</p>
 		</div>
 	);

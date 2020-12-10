@@ -43,7 +43,7 @@ const Homepage = () => {
 				<Row>
 					<Col md={{ span: 11}} className="">*/
 
-					<div className="Homepage">
+					<div className="Homepage ml-2">
 
 						<Image src={Logo} className="mobile-logo mt-4" alt="mobile-logo"/>
 
@@ -78,7 +78,7 @@ const Homepage = () => {
 
 						<section className="section3">
 						<h2>El proyecto Transformarte</h2>
-						<Container>
+
 						<Row className="mb-5">
 							<Col xs={12} md={6} className="">
 								<div>
@@ -96,14 +96,13 @@ const Homepage = () => {
 
 							</Col>
 						</Row>
-						</Container>
 						</section>
 
 							<h2>¿Qué nos ha llevado hasta aquí?</h2>
-							
+							<div>
 							<Image src={Llevados} alt="llevados" fluid/>
 							<Button variant="dark" className="section4-btn">COMPARTE Y VISIBILIZA</Button>
-							
+							</div>
 							{/*<hr className="b-line"></hr>*/}
 											
 						<section className="section5">
@@ -280,8 +279,11 @@ const Homepage = () => {
 							</div>
 							<hr className="b-line"/>
 						</section>*/}
+
 					</div>
-					
+
+
+
 					
 	);
 }
