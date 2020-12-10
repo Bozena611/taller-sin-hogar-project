@@ -1,24 +1,34 @@
 import React from 'react';
-import './Footer.css';
+import './Footer2.css';
 import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image';
+import Logo from '../img/horizontal-logo.svg';
 
 const Footer2 = () => {
 	return (
 		<div className="footer-main">
 			<div className="footer-buttons">
 				<div>
-					<h4 className="footer-title">Y tú, ¿qué puedes hacer?</h4>
+					<div>
+						<h4 className="footer-title">Y tú, ¿qué puedes hacer?</h4>
+						<hr className="hrz-line"/>
+					</div>
+					
 				</div>
-				<div>
-					<Button variant="primary">DESCUBRE EL TALLER</Button>
-					{/*<button type="button" className="px-5 btn btn-outline-light btn-lg descubre">DESCUBRE EL TALLER</button>*/}
+				<div className="footer-buttons2">
+					<div>
+						<Button variant="primary">DESCUBRE EL TALLER</Button>
+						{/*<button type="button" className="px-5 btn btn-outline-light btn-lg descubre">DESCUBRE EL TALLER</button>*/}
+					</div>
+					<div>
+						<Button variant="primary" className="compartir">COMPARTIR Y VISIBILIZAR</Button>
+						{/*<button type="button" className="px-5 btn btn-outline-light btn-lg compartir">COMPARTIR Y VISIBILIZAR</button>*/}
+					</div>
+					<hr className="hrz-line"/>
 				</div>
-				<div>
-					<Button variant="primary" className="compartir">COMPARTIR Y VISIBILIZAR</Button>
-					{/*<button type="button" className="px-5 btn btn-outline-light btn-lg compartir">COMPARTIR Y VISIBILIZAR</button>*/}
-				</div>
+				
 			</div>
-			<hr className="hrz-line"/>
+			
 			<div className="footer-flex1">
 				<div>
 					<p>Home</p>
@@ -48,8 +58,8 @@ const Footer2 = () => {
 					<p>icon3</p>
 				</div>
 			</div>	
-			<div>
-				<h5 className="transforma">TRANSFORMARTE</h5>
+			<div className="transforma">
+				<Image src={Logo} alt="blocks" className=" mb-3" />
 			</div>
 			<p className="copyright">Copyright © 2020. LogoIpsum. All rights reserved.</p>
 		</div>

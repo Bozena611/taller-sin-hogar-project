@@ -91,6 +91,11 @@
 }
 
 @media screen and (max-device-width: 700px){
+
+	.footer-compra {
+		display: none;
+	}
+
 	.footer-buttons {
 		padding-left: 25px;
 		width: 250%;

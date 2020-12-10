@@ -459,8 +459,26 @@ section, .section {
 	width: 39.7rem;
 	}
 
+  .section2-container h2, .section2-container span {
+  	font-size: 26px;
+  	line-height: 150%;
+  	
+  }
+
+  .image-text {
+  	width: 344px;
+  	height: 175px;
+  	margin-top: 3rem;
+   }
+
   .section2-container {
-  	display: none;
+  	width: 100%;
+  	height: auto;
+
+  	
+  }
+  .section2-container span {
+  	font-weight: 700;
   }
 /*
   .section7 .section8 {

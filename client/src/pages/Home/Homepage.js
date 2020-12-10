@@ -68,11 +68,13 @@ const Homepage = () => {
 									<h2>Juntos somos <span className="section2-h1">Transformarte</span> y tú también puedes serlo.</h2>
 								</div>
 							</div>
-						</section>
-						{/*
-						<div>
+
+							
+						{/*<div>
 							<Image src={Blocks} alt="blocks" fluid/>
 						</div>*/}
+						</section>
+						
 
 						<section className="section3">
 						<h2>El proyecto Transformarte</h2>
@@ -108,7 +110,7 @@ const Homepage = () => {
 							<h2>¿Qué proponemos?</h2>
 
 							<Row className="mb-5">
-								<Col md={{ span: 6}} >
+								<Col md={{ span: 6}} lg={{order: 'first'}}>
 									<p className="section5-p"><span>El taller Upcycling Lab</span> es un espacio de colaboración en el que personas sin y con hogar pueden trabajar juntos para dar una nueva vida a objetos desechados.</p>
 									<Image src={Podcast} alt="subtract" className="podcast-green mb-3" />
 								</Col>
