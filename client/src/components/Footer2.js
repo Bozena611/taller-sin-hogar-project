@@ -11,6 +11,7 @@ import icon2 from '../img/Path3.png';
 const Footer2 = () => {
 	return (
 		<div className="footer-main">
+
 			<div className="footer-buttons">
 				<div>
 					<div>
