@@ -1,14 +1,15 @@
-<<<<<<< HEAD
+
 .header-main{
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-=======
 
-.bordi{
+}
+
+.bordi {
     margin-top: 4vh;
     margin-left: 3vh;
->>>>>>> 54d989b4411f9b861892ec6a729e0a78b84a6634
+
 }
 
 .trans{
