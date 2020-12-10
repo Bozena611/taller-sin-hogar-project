@@ -21,8 +21,8 @@ import Transparentessvg from '../../img/somos-transparentes3.png';
 
 import Mask1 from '../../img/mask1.png';
 import Mask2 from '../../img/mask2.png';
-import Mask3 from '../../img/mask3.png';
-import Mask4 from '../../img/mask4.png';
+import Mask3 from '../../img/mask5.png';
+import Mask4 from '../../img/mask6.png';
 
 import Fundacion1 from '../../img/fundacionmon3.png';
 import Fundacion2 from '../../img/fundacionmob4.png';
