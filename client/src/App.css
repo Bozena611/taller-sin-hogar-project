@@ -24,6 +24,9 @@ body {
 .menu-flex {
 	display: flex;
 	background-color: #94C6D0;
+ /* background-image: url('./Background.svg');
+  mix-blend-mode: soft-light;
+  opacity: 100%;*/
 }
 
 .footer-main {
@@ -31,3 +34,9 @@ body {
   color: #EBEBEB;
 }
 
+@media screen and (max-width: 768px){
+  body {
+    width: 100%;
+  }
+
+}
