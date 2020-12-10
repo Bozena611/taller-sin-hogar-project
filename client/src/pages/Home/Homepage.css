@@ -258,7 +258,7 @@
 
 /*==== MOBILE VERSION ==== */
 
-@media screen and (max-width: 768px){
+@media screen and (max-device-width: 768px){
 
   .section5-btn, .section6-image, .section6-somos-svg {
     display: none;

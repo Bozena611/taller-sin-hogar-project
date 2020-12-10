@@ -19,6 +19,7 @@ const Footer = () => {
 				<Row>
 					<Col md={{ span: 3 }} className="py-3 ml-2">
 						<h4 className="footer-title">Y tú, ¿qué puedes hacer?</h4>
+						
 					</Col>
 					<Col md={{ span: 8}} className="py-5">
 						<Button className="btn px-5 ml-5 btn btn-outline-light btn-lg descubre">COLABORA EN EL TALLER</Button>
@@ -28,7 +29,7 @@ const Footer = () => {
 
 			</div>
 
-			<Row>
+			<Row className="filler">
 				<Col md={{ span: 3 }} className="ml-2">
 					<hr className="hrz-line"/>
 				</Col>
@@ -37,11 +38,11 @@ const Footer = () => {
 				</Col>
 			</Row>
 
-			<Row>
+			<Row className="filler">
 				<Col md={{ span: 3 }} className="ml-2">
-					<h4 className="transforma">
-						<img src={Logo} alt="blocks" className=" mb-3"></img>
-					</h4>
+					<div className="transforma">
+						<Image src={Logo} alt="blocks" className=" mb-3" />
+					</div>
 					<p className="copyright">Copyright © 2020. LogoIpsum. All rights reserved.</p>
 				</Col>
 				<Col md={{ span: 8}} className="footer-flex1">

@@ -89,3 +89,33 @@
 	font-size: 14px;
 	font-weight: 300;
 }
+
+@media screen and (max-device-width: 700px){
+	.footer-buttons {
+		padding-left: 25px;
+		width: 250%;
+
+		background-color: #1D1D1D;
+	}
+	
+	.footer-buttons{
+		width: 250%;
+
+		background-color: #1D1D1D;
+	}
+
+	.filler{
+		width: 250%;
+
+		background-color: #1D1D1D;
+	}
+
+	.footer-flex1{
+		width: 250%;
+
+		background-color: #1D1D1D;
+	}
+
+
+
+}
