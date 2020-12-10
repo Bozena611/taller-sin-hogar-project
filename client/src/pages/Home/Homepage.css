@@ -135,13 +135,15 @@ section, .section {
 .section4-btn {
 	float: left;
 	height: 46px;
-	/*width: 287.84px; */
+	/*width: 287.84px;*/
 	margin-top: 6vh;
 	/*margin-right: 5.7em; */
 	border-radius: 4px;
 	background-color: #1D1D1D;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
+
+
 
 /*===== SECTION 5 ====*/
 
@@ -412,6 +414,8 @@ section, .section {
 .section4-btn {
 	float: none;
 }
+	
+
 .section4-btn, .s6-btn {
 	width: 100%;
 	border-radius: 4px;
