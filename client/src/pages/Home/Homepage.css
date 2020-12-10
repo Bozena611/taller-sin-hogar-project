@@ -133,7 +133,7 @@ section, .section {
 }
 
 .section4-btn {
-	float: right;
+	float: left;
 	height: 46px;
 	/*width: 287.84px; */
 	margin-top: 6vh;
@@ -536,4 +536,12 @@ section, .section {
 }
 
 
+}
+
+
+@media screen and (min-width: 768px){
+	.section4-btn {
+		float: right;
+		margin-right: 20%; 
+	}
 }
