@@ -381,17 +381,27 @@ section, .section {
 	transform: translate(-50%, -50%);
 }*/
 
-
-
-
-
+.mobile-logo{
+	display: none;
+}
 
 
 /*==== MOBILE VERSION ==== */
 
 @media screen and (max-device-width: 768px){
 
-	
+   .mobile-logo{
+	display: inline;
+   }
+
+   .yellow-underline{
+		background-color:  #F8D65B;
+   }
+
+   .yellow-box{
+	background-color:  #F8D65B;
+   }
+
   .descubre-btn, .section3 h2, .section5-btn, .section6-image, .section6-somos-svg {
     display: none;
   } 

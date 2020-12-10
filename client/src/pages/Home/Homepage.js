@@ -27,6 +27,7 @@ import Mask4 from '../../img/mask6.png';
 import Fundacion1 from '../../img/fundacionmon3.png';
 import Fundacion2 from '../../img/fundacionmob4.png';
 
+import Logo from '../../img/logo-mobile.png';
 
 import Nosotros from '../../img/quienes-somos.png';
 import Fundacion from '../../img/fundacion.svg';
@@ -38,13 +39,14 @@ import Yellow3 from '../../img/values.png';
 const Homepage = () => {
 	return(
 		
-			
-			
 		/*	<Container fluid>
 				<Row>
 					<Col md={{ span: 11}} className="">*/
 
 					<div className="Homepage">
+
+						<Image src={Logo} className="mobile-logo mt-4" alt="mobile-logo"/>
+
 						<h1 className="section">
 							Somos <span className="yellow-underline">personas unidas</span> por un <span className="yellow-underline">proyecto social</span> que responde a la falta de vínculos entre personas con y sin hogar mediante 
 							<span className="yellow-box">talleres colaborativos.</span>
