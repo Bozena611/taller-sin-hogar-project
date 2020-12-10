@@ -17,12 +17,14 @@ const Footer = () => {
 			<div className="footer-buttons">
 
 				<Row>
-					<Col md={{ span: 3 }} className="py-3 ml-2">
+					<Col md={{ span: 4 }} className="py-3 ml-2">
 						<h4 className="footer-title">Y tú, ¿qué puedes hacer?</h4>
 						
 					</Col>
-					<Col md={{ span: 8}} className="py-5">
+					<Col md={{ span: 4}} className="py-5">
 						<Button className="btn px-5 ml-5 btn btn-outline-light btn-lg descubre">COLABORA EN EL TALLER</Button>
+					</Col>
+					<Col md={{ span: 4}} className="py-5">	
 						<Button className="btn px-5 ml-2 btn-outline-light btn-lg compartir">COMPARTIR Y VISIBILIZAR</Button>
 					</Col>
 				</Row>
@@ -62,7 +64,7 @@ const Footer = () => {
 						<h6 className="minifoot"> Vinculos </h6>
 					</div>
 
-					<div className="footer-upcycling">
+					<div className="footer-compra">
 						<p> Compra </p>
 						<h6 className="minifoot"> Datos personales </h6>
 						<h6 className="minifoot"> Pagos </h6>
