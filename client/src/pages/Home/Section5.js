@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 const Section5 = () => {
 	return(
 		<div className="section5">
+			
 			<h2>¿Qué proponemos?</h2>
 				<div className="section5-container">
 					<div className="section5-grid-item1">

@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;0,800;1,400;1,800&display=swap');
+
+body {
+  margin: 0;
+  color: #1D1D1D;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #94C6D0;
+}
+
+/*
 .App {
   /*text-align: center;*/
-  background-image: url('./Background.png'); /*NOT WORKING*/
-  /*mix-blend-mode: soft-light;*/
+  /*background-image: url('./Background.png'); */
+  /*mix-blend-mode: soft-light;
 }
+*/
 
 .menu-flex {
 	display: flex;
