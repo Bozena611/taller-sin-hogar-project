@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
 	    <div className='menu-flex'>
-	      <Header/>
+        <Header/>
 	      <Homepage/>
 	    </div>
       <Footer className="footer-main"/>
