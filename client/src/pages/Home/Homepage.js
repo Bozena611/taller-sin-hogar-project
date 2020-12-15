@@ -201,7 +201,7 @@ const Homepage = () => {
 									</div>*/}
 								</div>
 								<div>
-									<h1>Sensibilizar</h1>
+									<h2>Sensibilizar</h2>
 								</div>
 							</div>
 							<hr className="b-line"/>
@@ -213,7 +213,7 @@ const Homepage = () => {
 									</div>*/}
 								</div>
 								<div>
-									<h1>Transformar</h1>
+									<h2>Transformar</h2>
 								</div>
 							</div>
 							<hr className="b-line"/>
@@ -225,7 +225,7 @@ const Homepage = () => {
 										<p>VALORES</p>
 									</div>*/}
 								</div>
-								<h1>Sostenibilidad, impacto social y economía creativa</h1>
+								<h2>Sostenibilidad, impacto social y economía creativa</h2>
 							</div>
 							<hr className="b-line"/>
 						</section>
