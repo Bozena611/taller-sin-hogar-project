@@ -87,7 +87,7 @@ const Homepage = () => {
 									<p>La iniciativa nace a través de metodologías diseñadas para la creación y desarrollo de emprendimientos y <span>proyectos de impacto social</span>.</p>
 								</div>
 							</Col>
-							<Col xs={12} md={6} className="">
+							<Col xs={12} md={5} className="">
 							
 								<Image src={Vamos} alt="vamos" fluid/>
 								<h3>¿A dónde vamos?</h3>
