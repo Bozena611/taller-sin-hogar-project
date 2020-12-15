@@ -254,6 +254,7 @@ section, .section {
 	width: 19.8rem;
 	height: 2.875rem;
 	background-color: #1D1D1D;
+	margin-top: -18%;
 }
 
 /*==== SECTION7====*/
@@ -537,6 +538,15 @@ section, .section {
     /*padding-left: 16.5rem; it should be set with the react-boostrap*/
 
 	width: 90%;
+}
+
+
+.s6-btn {
+	width: 19.8rem;
+	height: 2.875rem;
+	background-color: #1D1D1D;
+	margin-top: 2%;
+	width: 100%;
 }
 
 
