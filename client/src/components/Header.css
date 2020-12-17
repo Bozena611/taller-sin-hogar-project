@@ -1,9 +1,13 @@
 
-.header-main{
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
+.navbar{
+    align-items: flex-start;
+}
 
+.header-main{
+    display: block;
+	position: sticky;
+    top: 10px;
+    left: 0;
 }
 
 .bordi {
