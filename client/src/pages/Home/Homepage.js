@@ -43,13 +43,12 @@ const Homepage = () => {
 				<Row>
 					<Col md={{ span: 11}} className="">*/
 
-					<div className="Homepage ml-2">
+					<div className="Homepage ml-3">
 
 						<Image src={Logo} className="mobile-logo mt-4" alt="mobile-logo"/>
 
-						<h1 className="section">
-							Somos <span className="yellow-underline">personas unidas</span> por un <span className="yellow-underline">proyecto social</span> que responde a la falta de vínculos entre personas con y sin hogar mediante 
-							<span className="yellow-box">talleres colaborativos.</span>
+						<h1 className="section section-h1">
+							Somos <span className="yellow-underline">personas unidas</span> por un <span className="yellow-underline">proyecto social</span> que responde a la falta de vínculos entre personas con y sin hogar mediante <span className="yellow-box">talleres colaborativos.</span>
 						</h1>
 
 						<div>
@@ -179,10 +178,10 @@ const Homepage = () => {
 								<Image src={Nosotros} alt="transparentes" fluid />
 								<Image src={Fundacion} alt="transparentes" className="fundacion" fluid/>
 							</div>*/}
-						</section>	
+						
 					
 
-							<section>
+							
 							<div className="section7-grid-desktop">
 								<Image src={Nosotros} className="mb-2" alt="transparentes" fluid />
 								<Image src={Fundacion} alt="transparentes" className="fundacion mb-3" fluid/>

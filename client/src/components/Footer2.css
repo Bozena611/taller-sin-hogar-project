@@ -107,6 +107,8 @@
 
 .copyright {
 	text-align: left;
+	margin-bottom: 0;
+	padding-bottom: 3rem;
 }
 
 @media screen and (max-device-width: 700px){
