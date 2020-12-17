@@ -87,7 +87,7 @@ const Homepage = () => {
 									<p>La iniciativa nace a través de metodologías diseñadas para la creación y desarrollo de emprendimientos y <span>proyectos de impacto social</span>.</p>
 								</div>
 							</Col>
-							<Col xs={12} md={6} className="">
+							<Col xs={12} md={5} className="">
 							
 								<Image src={Vamos} alt="vamos" fluid/>
 								<h3>¿A dónde vamos?</h3>
@@ -201,7 +201,7 @@ const Homepage = () => {
 									</div>*/}
 								</div>
 								<div>
-									<h1>Sensibilizar</h1>
+									<h2>Sensibilizar</h2>
 								</div>
 							</div>
 							<hr className="b-line"/>
@@ -213,7 +213,7 @@ const Homepage = () => {
 									</div>*/}
 								</div>
 								<div>
-									<h1>Transformar</h1>
+									<h2>Transformar</h2>
 								</div>
 							</div>
 							<hr className="b-line"/>
@@ -225,7 +225,7 @@ const Homepage = () => {
 										<p>VALORES</p>
 									</div>*/}
 								</div>
-								<h1>Sostenibilidad, impacto social y economía creativa</h1>
+								<h2>Sostenibilidad, impacto social y economía creativa</h2>
 							</div>
 							<hr className="b-line"/>
 						</section>

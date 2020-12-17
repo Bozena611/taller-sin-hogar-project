@@ -32,7 +32,7 @@
 }
 
 section, .section {
-	padding-top: 8.5rem;
+	padding-top: 4.5rem;
 	padding-bottom: 4vh;
 }
 
@@ -154,7 +154,7 @@ section, .section {
 .section5 h2 {
 	font-size: 40px;
 	letter-spacing: -2%;
-	margin-top: 10rem;
+	margin-top: 6rem;
 	margin-bottom: 7vh;
 }
 
@@ -254,6 +254,7 @@ section, .section {
 	width: 19.8rem;
 	height: 2.875rem;
 	background-color: #1D1D1D;
+	margin-top: -18%;
 }
 
 /*==== SECTION7====*/
@@ -291,7 +292,7 @@ section, .section {
 
 .section7 h2 {
 	font-size: 2.5rem;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 
 .fundacion {
@@ -324,13 +325,13 @@ section, .section {
 	letter-spacing: -0.02em;
 }
 
-.section8 h1 {
-	font-size: 3.625rem;
+.section8 h2 {
+	font-size: 3rem;
 	color: #1D1D1D;
 	font-weight: bold;
 	line-height: 150%;
 	letter-spacing: -0.01em;
-	margin-left: 3rem;
+	margin-left: 2.8rem;
 }
 
 .b-line {
@@ -406,7 +407,7 @@ section, .section {
   } 
 
   section, .section {
-	padding-top: 2rem;
+	padding-top: 1rem;
 	padding-bottom: 2rem;
 	
 }
@@ -504,10 +505,10 @@ section, .section {
 }*/
 
 .section8 {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 .section8 h2 {
-  	font-size: 22px;
+  	font-size: 25px;
   	line-height: 150%;
   	letter-spacing: -0.02rem;
   	font-style: medium;
@@ -537,6 +538,15 @@ section, .section {
     /*padding-left: 16.5rem; it should be set with the react-boostrap*/
 
 	width: 90%;
+}
+
+
+.s6-btn {
+	width: 19.8rem;
+	height: 2.875rem;
+	background-color: #1D1D1D;
+	margin-top: 2%;
+	width: 100%;
 }
 
 
