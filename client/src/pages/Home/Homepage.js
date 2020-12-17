@@ -47,10 +47,11 @@ const Homepage = () => {
 
 						<Image src={Logo} className="mobile-logo mt-4" alt="mobile-logo"/>
 
-						<h1 className="section">
-							Somos <span className="yellow-underline">personas unidas</span> por un <span className="yellow-underline">proyecto social</span> que responde a la falta de vínculos entre personas con y sin hogar mediante 
-							<span className="yellow-box">talleres colaborativos.</span>
-						</h1>
+						<div className="section">
+							<h1>
+							Somos <span className="yellow-underline">personas unidas</span> por un <span className="yellow-underline">proyecto social</span> que responde a la falta de vínculos entre personas con y sin hogar mediante <span className="yellow-box">talleres colaborativos.</span>
+							</h1>
+						</div>
 
 						<div>
 
